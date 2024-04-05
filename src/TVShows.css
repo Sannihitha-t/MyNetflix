@@ -1,0 +1,55 @@
+
+.tvshows-page {
+  background-color: #000;
+  padding-top: 80px;
+  color: #fff;
+}
+
+.tvshow-categories-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tvshow-category {
+  margin-bottom: 20px;
+  overflow-x:auto;
+  white-space: nowrap;
+  margin-top: 600px;
+}
+
+.tvshow-category h2 {
+  font-size: 24px;
+  
+}
+
+.tvshow-tiles-container {
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 2950px;;
+}
+
+.tvshow-tiles {
+  display: flex;
+}
+
+.tvshow-tile {
+  margin-right: 20px;
+}
+
+.tvshow-tile img {
+  width: 200px;
+}
+.tvshow-category:not(:first-child) {
+  margin-top: 20px; 
+}
+.navbar{
+  padding: 0;
+}
+.search-result-container{
+  width: 100vw;
+  margin-top: 6650px;
+}
+.tvshow-tile p{
+  color: #fff;
+}

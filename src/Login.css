@@ -1,0 +1,125 @@
+
+ body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   background-color: #141414;
+   background: url(https://www.slashgear.com/img/gallery/netflix-4k-streaming-on-macos-big-sur-to-require-a-t2-security-chip/intro-import.webp) no-repeat center center fixed;
+   background-size: cover;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   position: relative;
+}
+
+.logo {
+   width: 100%;
+   max-width: 200px;
+   margin: 20px;
+   position: fixed;
+   top: 2px;
+   left: 10px;
+   z-index: 1;
+}
+
+.login-page,
+.signup-page {
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   position: relative;
+}
+
+.login-container,
+.signup-container {
+   width: 100%;
+   max-width: 400px;
+   background-color: rgba(0, 0, 0, 0.8);
+   text-align: center;
+   padding: 30px;
+   border-radius: 5px;
+   height: 50vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.sign-in-text {
+   text-align: left;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: #fff;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+input {
+   padding: 15px;
+   margin-bottom: 20px;
+   background-color: rgba(255, 255, 255, 0.1);
+   border: none;
+   border-radius: 5px;
+   outline: none;
+   color: #fff;
+}
+
+input::placeholder {
+   color: #aaa;
+}
+
+button {
+   padding: 15px;
+   background-color: #e50914;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #ff0a16;
+}
+
+.signup-link {
+   text-align: left;
+   margin-top: 20px;
+   font-size: 14px;
+   color: #aaa;
+}
+
+.signup-link a {
+   text-align: left;
+   color: #fff;
+   text-decoration: none;
+}
+
+.signup-link a:hover {
+   text-align: left;
+}
+
+.additional-options {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+   font-size: 14px;
+}
+
+.need-help-link {
+   color: #fff;
+   cursor: pointer;
+}
+
+.need-help-link:hover {
+   text-decoration: underline;
+}
+
